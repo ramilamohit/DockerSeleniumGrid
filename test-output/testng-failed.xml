@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DockerSeleniumGridTest(failed)">
+    <classes>
+      <class name="SeleniumGrid.ChromeTest">
+        <methods>
+          <include name="startDockerGrid"/>
+          <include name="stopDockerGrid"/>
+          <include name="ChromeNodeTest"/>
+        </methods>
+      </class> <!-- SeleniumGrid.ChromeTest -->
+      <class name="SeleniumGrid.FireFoxTest">
+        <methods>
+          <include name="startDockerGrid"/>
+          <include name="stopDockerGrid"/>
+          <include name="FireFoxNodeTest"/>
+        </methods>
+      </class> <!-- SeleniumGrid.FireFoxTest -->
+      <class name="SeleniumGrid.EdgeTest">
+        <methods>
+          <include name="startDockerGrid"/>
+          <include name="stopDockerGrid"/>
+          <include name="EdgeNodeTest"/>
+        </methods>
+      </class> <!-- SeleniumGrid.EdgeTest -->
+    </classes>
+  </test> <!-- DockerSeleniumGridTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

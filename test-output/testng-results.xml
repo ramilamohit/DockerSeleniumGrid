@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T12:48:02 CDT" name="Suite" finished-at="2024-07-25T12:50:08 CDT" duration-ms="125364">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T12:48:02 CDT" name="DockerSeleniumGridTest" finished-at="2024-07-25T12:50:08 CDT" duration-ms="125364">
+      <class name="SeleniumGrid.FireFoxTest">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:SeleniumGrid.FireFoxTest@55b699ef]" started-at="2024-07-25T12:48:02 CDT" name="startDockerGrid" finished-at="2024-07-25T12:48:17 CDT" duration-ms="15044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method signature="FireFoxNodeTest()[pri:0, instance:SeleniumGrid.FireFoxTest@55b699ef]" started-at="2024-07-25T12:48:17 CDT" name="FireFoxNodeTest" finished-at="2024-07-25T12:49:23 CDT" duration-ms="65228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FireFoxNodeTest -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:SeleniumGrid.FireFoxTest@55b699ef]" started-at="2024-07-25T12:49:23 CDT" name="stopDockerGrid" finished-at="2024-07-25T12:50:08 CDT" duration-ms="45032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- SeleniumGrid.FireFoxTest -->
+      <class name="SeleniumGrid.ChromeTest">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:SeleniumGrid.ChromeTest@443118b0]" started-at="2024-07-25T12:48:02 CDT" name="startDockerGrid" finished-at="2024-07-25T12:48:17 CDT" duration-ms="15044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method signature="ChromeNodeTest()[pri:0, instance:SeleniumGrid.ChromeTest@443118b0]" started-at="2024-07-25T12:48:17 CDT" name="ChromeNodeTest" finished-at="2024-07-25T12:49:03 CDT" duration-ms="46045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeNodeTest -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:SeleniumGrid.ChromeTest@443118b0]" started-at="2024-07-25T12:49:03 CDT" name="stopDockerGrid" finished-at="2024-07-25T12:49:49 CDT" duration-ms="45220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- SeleniumGrid.ChromeTest -->
+      <class name="SeleniumGrid.EdgeTest">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:SeleniumGrid.EdgeTest@5fe94a96]" started-at="2024-07-25T12:48:02 CDT" name="startDockerGrid" finished-at="2024-07-25T12:48:17 CDT" duration-ms="15044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method signature="EdgeNodeTest()[pri:0, instance:SeleniumGrid.EdgeTest@5fe94a96]" started-at="2024-07-25T12:48:17 CDT" name="EdgeNodeTest" finished-at="2024-07-25T12:49:20 CDT" duration-ms="62289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeNodeTest -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:SeleniumGrid.EdgeTest@5fe94a96]" started-at="2024-07-25T12:49:20 CDT" name="stopDockerGrid" finished-at="2024-07-25T12:50:05 CDT" duration-ms="45034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- SeleniumGrid.EdgeTest -->
+    </test> <!-- DockerSeleniumGridTest -->
+  </suite> <!-- Suite -->
+</testng-results>
